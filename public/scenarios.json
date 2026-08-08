@@ -1,0 +1,1933 @@
+{
+  "scenarios": [
+    {
+      "file": "public/agentforce/README.md",
+      "category": "Agentforce Overview",
+      "title": "Salesforce Agentforce Architect Interview Bible",
+      "description": "The most comprehensive Salesforce Agentforce Architect Interview Guide ever written. Prepared for Principal Architect, Enterprise Architect, AI Architect, and Agentforce Architect interviews at Salesforce, Deloitte, Accenture, PwC, IBM, Capgemini, Cognizant, TCS, Infosys, Slalom, Publicis Sapient, T...",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "data",
+        "security"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/01-agentforce-fundamentals/01-agentforce-fundamentals.md",
+      "category": "Agentforce Fundamentals",
+      "title": "Part 1 — Agentforce Fundamentals",
+      "description": "---",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "data",
+        "security"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/01-agentforce-fundamentals/02-internal-architecture.md",
+      "category": "Agentforce Fundamentals",
+      "title": "02 Internal Architecture",
+      "description": "Agentforce's internal architecture is composed of several interconnected subsystems that work together to process user requests, reason about intent, execute actions, and return responses. Understanding this architecture is critical for designing scalable, secure, and reliable Agentforce implementat...",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "data",
+        "security"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/01-agentforce-fundamentals/03-lifecycle.md",
+      "category": "Agentforce Fundamentals",
+      "title": "03 Lifecycle",
+      "description": "The Agentforce lifecycle describes the end-to-end journey of an AI agent from design through deployment, operation, and eventual retirement. Understanding this lifecycle is essential for building production-grade Agentforce implementations that are maintainable, scalable, and compliant.",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "security",
+        "ai"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/01-agentforce-fundamentals/04-ai-execution-flow.md",
+      "category": "Agentforce Fundamentals",
+      "title": "04 Ai Execution Flow",
+      "description": "The AI execution flow in Agentforce describes the step-by-step process by which an incoming user request is transformed into a response through reasoning, grounding, prompt rendering, LLM inference, and action execution. Understanding this flow is essential for debugging, optimization, and designing...",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "data",
+        "ai"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/01-agentforce-fundamentals/05-llm-orchestration.md",
+      "category": "Agentforce Fundamentals",
+      "title": "05 Llm Orchestration",
+      "description": "LLM orchestration in Agentforce refers to the systematic management of Large Language Model interactions within the Agentforce platform, including prompt construction, model selection, parameter tuning, response parsing, and integration with the broader agent execution pipeline. It is the mechanism ...",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "ai",
+        "devops"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/01-agentforce-fundamentals/06-atlas-reasoning.md",
+      "category": "Agentforce Fundamentals",
+      "title": "06 Atlas Reasoning",
+      "description": "Atlas is Salesforce's proprietary reasoning engine that powers Agentforce agents. It is the core intelligence layer that processes incoming requests, understands user intent, selects appropriate Topics, determines the optimal sequence of Actions, and manages the overall execution flow. Atlas goes be...",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "ai",
+        "agentforce-fundamentals"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/01-agentforce-fundamentals/07-einstein-bots-comparison.md",
+      "category": "Agentforce Fundamentals",
+      "title": "07 Einstein Bots Comparison",
+      "description": "Agentforce and Einstein Bots are both Salesforce AI-powered conversational platforms, but they differ fundamentally in architecture, capabilities, and use cases. Einstein Bots is a rule-based dialog automation tool, while Agentforce is a reasoning-based AI agent platform that can dynamically interpr...",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "data",
+        "ai"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/01-agentforce-fundamentals/08-capabilities.md",
+      "category": "Agentforce Fundamentals",
+      "title": "08 Capabilities",
+      "description": "Agentforce provides a comprehensive set of capabilities that enable organizations to build, deploy, and manage AI-powered autonomous agents at enterprise scale. These capabilities span the full spectrum of agent functionality, from natural language understanding to action execution and observability...",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "data",
+        "security"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/01-agentforce-fundamentals/09-use-cases.md",
+      "category": "Agentforce Fundamentals",
+      "title": "09 Use Cases",
+      "description": "Agentforce is designed for enterprise-grade AI automation across a wide range of business functions. Its capabilities in reasoning, action execution, grounding, and security make it suitable for complex, high-stakes scenarios where traditional chatbots and rule-based automation fall short.",
+      "tags": [
+        "architecture",
+        "data",
+        "security",
+        "ai",
+        "devops"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/01-agentforce-fundamentals/10-limitations.md",
+      "category": "Agentforce Fundamentals",
+      "title": "10 Limitations",
+      "description": "While Agentforce is a powerful platform, it has several limitations that architects must understand when designing solutions. Recognizing these limitations is essential for making informed architectural decisions and setting realistic expectations with stakeholders.",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "security",
+        "ai"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/01-agentforce-fundamentals/11-when-not-to-use.md",
+      "category": "Agentforce Fundamentals",
+      "title": "11 When Not To Use",
+      "description": "Agentforce is a powerful AI agent platform, but it is not the right solution for every scenario. Understanding when NOT to use Agentforce is just as important as knowing when to use it. Architects must evaluate each use case against Agentforce's capabilities and limitations to make the right technol...",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "security",
+        "ai"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/01-agentforce-fundamentals/12-licensing.md",
+      "category": "Agentforce Fundamentals",
+      "title": "12 Licensing",
+      "description": "Agentforce licensing is a separate Salesforce product license that must be purchased in addition to the base Salesforce license. Understanding licensing is essential for cost planning, ROI justification, and stakeholder communication in enterprise deployments.",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "data",
+        "ai"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/01-agentforce-fundamentals/13-components.md",
+      "category": "Agentforce Fundamentals",
+      "title": "13 Components",
+      "description": "An Agentforce agent is composed of several interconnected components that work together to process user requests, reason about intent, execute actions, and return responses. Each component plays a specific role in the agent's functionality.",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "data",
+        "security"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/01-agentforce-fundamentals/14-architecture-patterns.md",
+      "category": "Agentforce Fundamentals",
+      "title": "14 Architecture Patterns",
+      "description": "Agentforce supports several architecture patterns that address different enterprise requirements. Understanding these patterns is essential for designing scalable, maintainable, and effective Agentforce solutions.",
+      "tags": [
+        "architecture",
+        "ai",
+        "devops",
+        "governance",
+        "agentforce-fundamentals"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/01-agentforce-fundamentals/15-best-practices.md",
+      "category": "Operations",
+      "title": "15 Best Practices",
+      "description": "Following best practices is essential for building reliable, scalable, and secure Agentforce implementations. These practices are drawn from enterprise deployments and reflect the collective experience of Salesforce architects and engineers.",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "data",
+        "security"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/02-atlas-reasoning/01-how-atlas-works.md",
+      "category": "Atlas Reasoning Engine",
+      "title": "Part 2 — Atlas Reasoning Engine",
+      "description": "---",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "ai",
+        "atlas-reasoning-engine"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/02-atlas-reasoning/02-intent-recognition.md",
+      "category": "Atlas Reasoning Engine",
+      "title": "02 Intent Recognition",
+      "description": "Atlas intent recognition is the process by which the Atlas reasoning engine classifies a user's message into one or more predefined intents. This is the first critical step in the Agentforce execution flow, as it determines which Topics are activated and what Actions are considered.",
+      "tags": [
+        "architecture",
+        "ai",
+        "devops",
+        "atlas-reasoning-engine"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/02-atlas-reasoning/03-reasoning.md",
+      "category": "Atlas Reasoning Engine",
+      "title": "03 Reasoning",
+      "description": "Atlas reasoning is the process by which the Atlas engine generates a step-by-step logical chain to determine how to handle a user's request. Unlike simple intent matching, Atlas reasoning involves analyzing the request, evaluating available data, considering constraints, and determining the optimal ...",
+      "tags": [
+        "architecture",
+        "security",
+        "ai",
+        "monitoring",
+        "governance"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/02-atlas-reasoning/04-planning.md",
+      "category": "Atlas Reasoning Engine",
+      "title": "04 Planning",
+      "description": "Atlas planning is the process by which the Atlas engine creates a structured execution plan based on the reasoning chain. The plan specifies which Actions to execute, in what order, with what parameters, and under what conditions. Planning is what transforms Atlas's reasoning into concrete, executab...",
+      "tags": [
+        "architecture",
+        "integration",
+        "ai",
+        "atlas-reasoning-engine"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/02-atlas-reasoning/05-tool-selection.md",
+      "category": "Atlas Reasoning Engine",
+      "title": "05 Tool Selection",
+      "description": "Atlas tool selection is the process by which the Atlas engine selects the appropriate Action (tool) for each step in the execution plan. Tool selection is based on the action's purpose, required parameters, availability, and the current context of the conversation.",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "ai",
+        "atlas-reasoning-engine"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/02-atlas-reasoning/06-action-selection.md",
+      "category": "Atlas Reasoning Engine",
+      "title": "06 Action Selection",
+      "description": "Atlas action selection is the mechanism by which the Atlas engine determines which specific Action to execute at each step of the reasoning chain. Action selection is a critical component of the Atlas planning process, as it directly impacts the agent's ability to fulfill user requests accurately an...",
+      "tags": [
+        "architecture",
+        "integration",
+        "ai",
+        "atlas-reasoning-engine"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/02-atlas-reasoning/07-conversation-state.md",
+      "category": "Atlas Reasoning Engine",
+      "title": "07 Conversation State",
+      "description": "Atlas conversation state management is the mechanism by which the Atlas engine maintains and tracks the state of a conversation across multiple turns. This includes tracking which Topics have been addressed, which Actions have been executed, what information has been gathered, and what the next logi...",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "ai",
+        "atlas-reasoning-engine"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/02-atlas-reasoning/08-topic-selection.md",
+      "category": "Atlas Reasoning Engine",
+      "title": "08 Topic Selection",
+      "description": "Atlas topic selection is the process by which the Atlas engine determines which Topic(s) should be activated for a given user request. Topic selection is based on intent recognition, confidence scoring, and Topic configuration, and it is a critical decision point in the Agentforce execution flow.",
+      "tags": [
+        "architecture",
+        "ai",
+        "performance",
+        "atlas-reasoning-engine"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/02-atlas-reasoning/09-failure-handling.md",
+      "category": "Atlas Reasoning Engine",
+      "title": "09 Failure Handling",
+      "description": "Atlas failure handling is the mechanism by which the Atlas engine detects, responds to, and recovers from failures during the reasoning, planning, and execution processes. Robust failure handling is essential for building reliable, production-grade Agentforce agents.",
+      "tags": [
+        "architecture",
+        "integration",
+        "ai",
+        "monitoring",
+        "governance"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/02-atlas-reasoning/10-retry-mechanism.md",
+      "category": "Atlas Reasoning Engine",
+      "title": "10 Retry Mechanism",
+      "description": "Atlas retry mechanisms provide resilience against transient failures by automatically retrying failed operations with configurable policies. Retry mechanisms are a critical component of Atlas's failure handling strategy, ensuring that temporary issues do not cause permanent failures.",
+      "tags": [
+        "architecture",
+        "integration",
+        "ai",
+        "monitoring",
+        "atlas-reasoning-engine"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/03-topics/01-topic-architecture.md",
+      "category": "Topics",
+      "title": "Part 3 — Topics",
+      "description": "---",
+      "tags": [
+        "architecture",
+        "ai",
+        "topics"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/03-topics/02-topic-boundaries.md",
+      "category": "Topics",
+      "title": "02 Topic Boundaries",
+      "description": "Topic boundaries define the scope and limits of each Topic, ensuring that the agent knows exactly what each Topic covers and when to activate or exit it. Well-defined Topic boundaries are essential for building reliable, predictable Agentforce agents.",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "ai",
+        "governance",
+        "topics"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/03-topics/03-topic-descriptions.md",
+      "category": "Topics",
+      "title": "03 Topic Descriptions",
+      "description": "Topic descriptions are a critical component of Topic configuration that guide the Atlas reasoning engine in understanding what each Topic covers and when to activate it. Well-written Topic descriptions improve intent recognition accuracy and reduce misclassification.",
+      "tags": [
+        "architecture",
+        "ai",
+        "performance",
+        "topics"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/03-topics/04-topic-instructions.md",
+      "category": "Topics",
+      "title": "04 Topic Instructions",
+      "description": "Topic instructions are detailed directives that guide the agent's behavior when a Topic is active. They define how the agent should process requests, what actions to take, what responses to generate, and what constraints to follow within the Topic's scope.",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "ai",
+        "topics"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/03-topics/05-entry-exit-criteria.md",
+      "category": "Topics",
+      "title": "05 Entry Exit Criteria",
+      "description": "Topic entry and exit criteria are conditions that determine when a Topic should be activated and when it should be exited. They are essential for controlling the agent's conversation flow and ensuring that Topics are activated and exited at the right times.",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "ai",
+        "topics"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/03-topics/06-topic-prioritization.md",
+      "category": "Topics",
+      "title": "06 Topic Prioritization",
+      "description": "Topic prioritization is the mechanism by which the Atlas engine determines which Topic to activate when multiple Topics could match a user's request. Proper prioritization ensures that the most relevant Topic is selected, improving the accuracy and relevance of the agent's responses.",
+      "tags": [
+        "architecture",
+        "ai",
+        "topics"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/03-topics/07-topic-overlap.md",
+      "category": "Topics",
+      "title": "07 Topic Overlap",
+      "description": "Topic overlap occurs when two or more Topics have overlapping scopes, causing the agent to be uncertain about which Topic to activate. Handling Topic overlap is essential for building reliable, predictable Agentforce agents.",
+      "tags": [
+        "architecture",
+        "ai",
+        "monitoring",
+        "topics"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/03-topics/08-intent-matching.md",
+      "category": "Topics",
+      "title": "08 Intent Matching",
+      "description": "Atlas intent matching is the process by which the Atlas engine matches a user's message to the appropriate Topic(s) based on the intent expressed in the message. Intent matching is the primary mechanism for Topic selection and is a core capability of the Atlas reasoning engine.",
+      "tags": [
+        "architecture",
+        "ai",
+        "performance",
+        "topics"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/03-topics/09-large-enterprise-topics.md",
+      "category": "Topics",
+      "title": "09 Large Enterprise Topics",
+      "description": "Designing Topics for large enterprises requires careful planning, scalability considerations, and governance. Large enterprise deployments typically involve dozens or hundreds of Topics, making design and management a significant architectural challenge.",
+      "tags": [
+        "architecture",
+        "integration",
+        "security",
+        "ai",
+        "devops"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/03-topics/10-topic-anti-patterns.md",
+      "category": "Topics",
+      "title": "10 Topic Anti Patterns",
+      "description": "Topic anti-patterns are common mistakes and design flaws that lead to poor Agentforce agent performance. Recognizing and avoiding these anti-patterns is essential for building reliable, scalable, and maintainable Topic configurations.",
+      "tags": [
+        "architecture",
+        "ai",
+        "devops",
+        "monitoring",
+        "performance"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/04-actions/01-flow-actions.md",
+      "category": "Actions",
+      "title": "Part 4 — Actions",
+      "description": "---",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "security",
+        "ai",
+        "monitoring"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/04-actions/02-apex-actions.md",
+      "category": "Actions",
+      "title": "02 Apex Actions",
+      "description": "Apex Actions allow Agentforce agents to execute custom Apex code as part of the agent's reasoning and execution process. Apex Actions provide the most flexible and powerful Action type, enabling complex business logic, custom integrations, and data transformations that cannot be achieved with Flow A...",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "security",
+        "ai"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/04-actions/03-rest-api-actions.md",
+      "category": "Actions",
+      "title": "03 Rest Api Actions",
+      "description": "REST API Actions allow Agentforce agents to call external REST APIs as part of the agent's reasoning and execution process. REST API Actions enable integration with external systems, third-party services, and custom APIs that are not natively available in Salesforce.",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "security",
+        "ai"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/04-actions/04-external-service-actions.md",
+      "category": "Actions",
+      "title": "04 External Service Actions",
+      "description": "External Service Actions provide a declarative way to integrate external APIs and services into Agentforce agents. Unlike REST API Actions that require manual configuration of endpoints, headers, and authentication, External Service Actions use Salesforce's declarative integration capabilities to si...",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "security",
+        "ai"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/04-actions/05-prompt-template-actions.md",
+      "category": "Actions",
+      "title": "05 Prompt Template Actions",
+      "description": "Prompt Template Actions are a specialized Action type that uses Prompt Templates to generate AI-powered content as part of the agent's execution. Prompt Template Actions are the primary mechanism for generating natural language responses, summaries, recommendations, and other AI-generated content wi...",
+      "tags": [
+        "architecture",
+        "ai",
+        "monitoring",
+        "performance",
+        "actions"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/04-actions/06-mulesoft-actions.md",
+      "category": "Actions",
+      "title": "06 Mulesoft Actions",
+      "description": "MuleSoft Actions allow Agentforce agents to leverage MuleSoft's integration capabilities to connect with external systems, enterprise applications, and data sources. MuleSoft Actions provide a powerful and flexible way to integrate Agentforce with the broader enterprise ecosystem.",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "security",
+        "ai"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/04-actions/07-composite-actions.md",
+      "category": "Actions",
+      "title": "07 Composite Actions",
+      "description": "Composite Actions are a powerful Action type that allows Agentforce agents to orchestrate multiple Actions into a single, cohesive operation. Composite Actions enable complex multi-step workflows where the output of one Action feeds into the input of the next, all managed as a single unit.",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "ai",
+        "monitoring"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/04-actions/08-reusable-actions.md",
+      "category": "Actions",
+      "title": "08 Reusable Actions",
+      "description": "Reusable Actions are Actions that are designed to be shared across multiple Topics, agents, and use cases. Reusability reduces duplication, improves consistency, and accelerates development.",
+      "tags": [
+        "architecture",
+        "integration",
+        "ai",
+        "monitoring",
+        "governance"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/04-actions/09-transaction-handling.md",
+      "category": "Actions",
+      "title": "09 Transaction Handling",
+      "description": "Transaction management in Agentforce ensures that Action executions are handled reliably, with proper rollback, commit, and error recovery mechanisms. Understanding transaction management is essential for building data-consistent Agentforce implementations.",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "ai",
+        "monitoring"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/04-actions/10-error-handling.md",
+      "category": "Actions",
+      "title": "10 Error Handling",
+      "description": "Error handling in Agentforce Actions is a critical aspect of building reliable, production-grade agents. Proper error handling ensures that the agent can recover from failures gracefully, maintain data consistency, and provide a good user experience even when things go wrong.",
+      "tags": [
+        "architecture",
+        "integration",
+        "ai",
+        "monitoring",
+        "governance"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/04-actions/11-retry.md",
+      "category": "Actions",
+      "title": "11 Retry",
+      "description": "Retry mechanisms for Actions in Agentforce provide resilience against transient failures by automatically retrying failed Action executions with configurable policies. Retry is a critical component of the error handling strategy.",
+      "tags": [
+        "architecture",
+        "integration",
+        "ai",
+        "monitoring",
+        "actions"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/04-actions/12-idempotency.md",
+      "category": "Actions",
+      "title": "12 Idempotency",
+      "description": "Idempotency in Agentforce Actions ensures that executing the same Action multiple times with the same inputs produces the same result, without causing unintended side effects. Idempotency is critical for building reliable, data-consistent Agentforce implementations, especially when retry mechanisms ...",
+      "tags": [
+        "architecture",
+        "integration",
+        "ai",
+        "actions"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/04-actions/13-security.md",
+      "category": "Actions",
+      "title": "13 Security",
+      "description": "Security in Agentforce Actions is critical for protecting sensitive data, preventing unauthorized access, and ensuring compliance with regulatory requirements. Security must be designed into every Action from the start.",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "security",
+        "ai"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/04-actions/14-performance.md",
+      "category": "Actions",
+      "title": "14 Performance",
+      "description": "Performance optimization for Agentforce Actions is essential for building fast, scalable, and cost-effective agents. Optimizing Action performance directly impacts user experience, cost, and scalability.",
+      "tags": [
+        "architecture",
+        "integration",
+        "ai",
+        "performance",
+        "actions"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/04-actions/15-scalability.md",
+      "category": "Actions",
+      "title": "15 Scalability",
+      "description": "Scaling Agentforce Actions is essential for handling increasing conversation volumes, growing data requirements, and expanding integration needs. Scaling must be planned from the beginning and continuously monitored.",
+      "tags": [
+        "architecture",
+        "integration",
+        "ai",
+        "devops",
+        "monitoring"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/05-prompt-builder/01-prompt-builder.md",
+      "category": "Prompt Builder",
+      "title": "Part 5 — Prompt Builder & Prompt Templates",
+      "description": "---",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "data",
+        "ai",
+        "performance"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/05-prompt-builder/02-prompt-templates.md",
+      "category": "Prompt Builder",
+      "title": "02 Prompt Templates",
+      "description": "Prompt Templates are reusable prompt patterns that can be configured once and used across multiple Topics, Actions, and agents. Prompt Templates provide consistency, maintainability, and efficiency in prompt management.",
+      "tags": [
+        "architecture",
+        "ai",
+        "devops",
+        "governance",
+        "prompt-builder"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/05-prompt-builder/03-prompt-inputs-outputs.md",
+      "category": "Prompt Builder",
+      "title": "03 Prompt Inputs Outputs",
+      "description": "Prompt Inputs and Outputs define the data flow between the agent's context and the LLM prompt. Inputs are the data that is injected into the prompt, and outputs are the data that is extracted from the LLM's response.",
+      "tags": [
+        "architecture",
+        "integration",
+        "data",
+        "ai",
+        "governance"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/05-prompt-builder/04-grounding.md",
+      "category": "Prompt Builder",
+      "title": "04 Grounding",
+      "description": "Grounding in Prompt Templates refers to the process of injecting relevant, external data into the prompt to provide the LLM with accurate, up-to-date information. Grounding is essential for reducing hallucination and ensuring that the agent's responses are based on real data.",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "data",
+        "ai"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/05-prompt-builder/05-merge-fields-variables.md",
+      "category": "Prompt Builder",
+      "title": "05 Merge Fields Variables",
+      "description": "Merge fields and dynamic variables are placeholders in Prompt Templates that are replaced with actual data at runtime. They enable prompts to be personalized and data-driven.",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "ai",
+        "prompt-builder"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/05-prompt-builder/06-record-summaries.md",
+      "category": "Prompt Builder",
+      "title": "06 Record Summaries",
+      "description": "Record summaries in Prompt Templates provide a concise, structured summary of Salesforce records that is injected into the prompt. Record summaries enable the LLM to understand the current state of relevant records without requiring the full record data.",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "ai",
+        "performance",
+        "prompt-builder"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/05-prompt-builder/07-sales-email-prompts.md",
+      "category": "Prompt Builder",
+      "title": "07 Sales Email Prompts",
+      "description": "Sales email prompts are specialized Prompt Templates designed for generating sales-related email content. They are optimized for sales communication, personalization, and conversion.",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "ai",
+        "prompt-builder"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/05-prompt-builder/08-field-generation-prompts.md",
+      "category": "Prompt Builder",
+      "title": "08 Field Generation Prompts",
+      "description": "Field generation prompts are specialized Prompt Templates that automatically generate values for Salesforce fields based on input data. They are commonly used for auto-populating fields during record creation or updates.",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "ai",
+        "prompt-builder"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/05-prompt-builder/09-flex-prompts.md",
+      "category": "Prompt Builder",
+      "title": "09 Flex Prompts",
+      "description": "Flex prompts are flexible, configurable Prompt Templates that can be adapted for different use cases without requiring code changes. They provide a dynamic prompt configuration that can be modified at runtime based on context, user input, and business rules.",
+      "tags": [
+        "architecture",
+        "ai",
+        "performance",
+        "prompt-builder"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/05-prompt-builder/10-custom-prompts.md",
+      "category": "Prompt Builder",
+      "title": "10 Custom Prompts",
+      "description": "Custom prompts are user-defined Prompt Templates that go beyond the standard templates provided by Agentforce. They allow architects to create highly tailored prompts for specific use cases, domains, and business requirements.",
+      "tags": [
+        "architecture",
+        "integration",
+        "security",
+        "ai",
+        "monitoring"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/05-prompt-builder/11-prompt-testing.md",
+      "category": "Prompt Builder",
+      "title": "11 Prompt Testing",
+      "description": "Testing Prompt Templates is essential for ensuring quality, accuracy, and reliability of Agentforce agents. Testing should cover functionality, edge cases, and performance.",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "ai",
+        "monitoring"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/05-prompt-builder/12-prompt-evaluation.md",
+      "category": "Prompt Builder",
+      "title": "12 Prompt Evaluation",
+      "description": "Prompt Template evaluation is the process of measuring the quality, accuracy, and effectiveness of Prompt Templates. Evaluation ensures that Prompt Templates meet the required standards and deliver consistent, high-quality results.",
+      "tags": [
+        "architecture",
+        "ai",
+        "monitoring",
+        "prompt-builder"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/05-prompt-builder/13-prompt-versioning.md",
+      "category": "Prompt Builder",
+      "title": "13 Prompt Versioning",
+      "description": "Versioning Prompt Templates ensures that changes are tracked, reversible, and auditable. Versioning is essential for maintaining quality and enabling rollback when issues arise.",
+      "tags": [
+        "architecture",
+        "ai",
+        "devops",
+        "prompt-builder"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/05-prompt-builder/14-prompt-deployment.md",
+      "category": "Prompt Builder",
+      "title": "14 Prompt Deployment",
+      "description": "Deploying Prompt Templates involves moving them from development through testing to production, ensuring that changes are validated and rolled out safely.",
+      "tags": [
+        "architecture",
+        "integration",
+        "ai",
+        "devops",
+        "monitoring"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/05-prompt-builder/15-prompt-cicd.md",
+      "category": "Delivery & DevOps",
+      "title": ".github/workflows/prompt-template-ci.yml",
+      "description": "CI/CD for Prompt Templates automates the testing, validation, and deployment of prompt changes, ensuring that Prompt Template updates are reliable, consistent, and safe.",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "ai",
+        "devops"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/06-context-grounding/01-context-variables.md",
+      "category": "Context & Grounding",
+      "title": "Part 6 — Context Variables & Grounding",
+      "description": "---",
+      "tags": [
+        "architecture",
+        "ai",
+        "context-&-grounding"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/06-context-grounding/02-conversation-context.md",
+      "category": "Context & Grounding",
+      "title": "02 Conversation Context",
+      "description": "Conversation context is the information from previous turns in the conversation that provides continuity and relevance to the current interaction. Managing conversation context is essential for building natural, coherent multi-turn conversations.",
+      "tags": [
+        "architecture",
+        "ai",
+        "context-&-grounding"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/06-context-grounding/03-session-context.md",
+      "category": "Context & Grounding",
+      "title": "03 Session Context",
+      "description": "Session context is the information about the current session that provides context to the Agentforce agent. Session context includes session-specific data that persists across conversation turns within the same session.",
+      "tags": [
+        "architecture",
+        "ai",
+        "context-&-grounding"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/06-context-grounding/04-runtime-context.md",
+      "category": "Context & Grounding",
+      "title": "04 Runtime Context",
+      "description": "Runtime context is the information about the current execution environment that provides context to the Agentforce agent. Runtime context includes data about the system, the environment, and the current execution state.",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "security",
+        "ai",
+        "devops"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/06-context-grounding/05-salesforce-grounding.md",
+      "category": "Context & Grounding",
+      "title": "05 Salesforce Grounding",
+      "description": "Salesforce grounding is the process of injecting Salesforce CRM data into the Agentforce prompt to provide the LLM with accurate, real-time information about the customer, their records, and their interactions. Salesforce grounding is the primary grounding mechanism for Agentforce agents.",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "ai",
+        "performance",
+        "context-&-grounding"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/06-context-grounding/06-knowledge-grounding.md",
+      "category": "Context & Grounding",
+      "title": "06 Knowledge Grounding",
+      "description": "Knowledge grounding is the process of injecting Salesforce Knowledge articles into the Agentforce prompt to provide the LLM with authoritative, up-to-date information. Knowledge grounding enables the agent to answer questions based on the organization's knowledge base.",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "ai",
+        "governance"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/06-context-grounding/07-crm-grounding.md",
+      "category": "Context & Grounding",
+      "title": "07 Crm Grounding",
+      "description": "CRM grounding is the process of injecting CRM data into the Agentforce prompt to provide the LLM with context about the customer, their interactions, and their relationship with the organization. CRM grounding is the foundation of personalized, data-driven agent responses.",
+      "tags": [
+        "architecture",
+        "ai",
+        "context-&-grounding"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/06-context-grounding/08-data-cloud-grounding.md",
+      "category": "Context & Grounding",
+      "title": "08 Data Cloud Grounding",
+      "description": "Data Cloud grounding is the process of injecting Salesforce Data Cloud data into the Agentforce prompt. Data Cloud provides unified customer profiles, segments, and insights that enable highly personalized and data-driven agent responses.",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "data",
+        "ai",
+        "context-&-grounding"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/06-context-grounding/09-flow-apex-grounding.md",
+      "category": "Context & Grounding",
+      "title": "09 Flow Apex Grounding",
+      "description": "Flow and Apex grounding are mechanisms for injecting data retrieved through Salesforce Flows and Apex code into the Agentforce prompt. These grounding methods enable the agent to access custom data sources and complex data transformations.",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "ai",
+        "performance"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/06-context-grounding/10-hallucination-reduction.md",
+      "category": "Context & Grounding",
+      "title": "10 Hallucination Reduction",
+      "description": "Grounding strategies for hallucination reduction are techniques used to minimize the LLM's tendency to fabricate information. Hallucination is a significant challenge in AI agents, and proper grounding is the primary defense.",
+      "tags": [
+        "architecture",
+        "data",
+        "security",
+        "ai",
+        "monitoring"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/07-rag-vector-search/01-rag-overview.md",
+      "category": "RAG & Vector Search",
+      "title": "Part 7 — RAG & Vector Search",
+      "description": "---",
+      "tags": [
+        "architecture",
+        "ai",
+        "rag-&-vector-search"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/07-rag-vector-search/02-embeddings.md",
+      "category": "RAG & Vector Search",
+      "title": "02 Embeddings",
+      "description": "Embeddings are numerical representations of text that capture semantic meaning. In RAG, embeddings are used to convert text into vectors that can be compared for similarity, enabling semantic search and retrieval.",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "ai",
+        "governance",
+        "rag-&-vector-search"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/07-rag-vector-search/03-semantic-search.md",
+      "category": "RAG & Vector Search",
+      "title": "03 Semantic Search",
+      "description": "Semantic search is a retrieval technique that uses vector embeddings to find the most relevant documents or data chunks based on meaning rather than exact keyword matching. Semantic search is a core component of RAG systems.",
+      "tags": [
+        "architecture",
+        "ai",
+        "governance",
+        "performance",
+        "rag-&-vector-search"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/07-rag-vector-search/04-vector-databases.md",
+      "category": "RAG & Vector Search",
+      "title": "04 Vector Databases",
+      "description": "Vector databases are specialized databases designed to store, index, and query vector embeddings efficiently. They are the backbone of RAG systems, enabling fast and accurate similarity search.",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "data",
+        "ai",
+        "governance"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/07-rag-vector-search/05-cosine-similarity.md",
+      "category": "RAG & Vector Search",
+      "title": "05 Cosine Similarity",
+      "description": "Cosine similarity is a metric used to measure the similarity between two vectors by calculating the cosine of the angle between them. It is the most commonly used similarity metric in RAG systems for vector search and retrieval.",
+      "tags": [
+        "architecture",
+        "ai",
+        "performance",
+        "rag-&-vector-search"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/07-rag-vector-search/06-chunking.md",
+      "category": "RAG & Vector Search",
+      "title": "06 Chunking",
+      "description": "Chunking is the process of splitting large documents into smaller, manageable pieces (chunks) before embedding and storing them in a vector database. Chunking is a critical step in the RAG pipeline that directly impacts retrieval quality.",
+      "tags": [
+        "architecture",
+        "ai",
+        "devops",
+        "governance",
+        "rag-&-vector-search"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/07-rag-vector-search/07-retrieval-strategies.md",
+      "category": "RAG & Vector Search",
+      "title": "07 Retrieval Strategies",
+      "description": "Retrieval strategies define how relevant documents or data chunks are retrieved from the knowledge base during the RAG process. The choice of retrieval strategy directly impacts the quality and relevance of the agent's responses.",
+      "tags": [
+        "architecture",
+        "ai",
+        "governance",
+        "rag-&-vector-search"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/07-rag-vector-search/08-ranking.md",
+      "category": "RAG & Vector Search",
+      "title": "08 Ranking",
+      "description": "Ranking in RAG is the process of ordering retrieved documents or chunks by relevance to the user's query. Ranking ensures that the most relevant information is presented to the LLM for response generation.",
+      "tags": [
+        "architecture",
+        "ai",
+        "devops",
+        "governance",
+        "rag-&-vector-search"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/07-rag-vector-search/09-hybrid-search.md",
+      "category": "RAG & Vector Search",
+      "title": "09 Hybrid Search",
+      "description": "Hybrid search combines multiple retrieval methods (semantic search and keyword search) to achieve better retrieval quality than either method alone. Hybrid search is a best practice in production RAG systems.",
+      "tags": [
+        "architecture",
+        "ai",
+        "governance",
+        "rag-&-vector-search"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/07-rag-vector-search/10-enterprise-rag.md",
+      "category": "RAG & Vector Search",
+      "title": "10 Enterprise Rag",
+      "description": "Enterprise RAG is the application of Retrieval-Augmented Generation in enterprise environments, with additional considerations for scale, security, compliance, and integration with enterprise data systems. Enterprise RAG addresses the unique challenges of deploying RAG in large organizations.",
+      "tags": [
+        "architecture",
+        "integration",
+        "data",
+        "security",
+        "ai"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/08-data-cloud/01-identity-resolution.md",
+      "category": "Data Cloud",
+      "title": "Part 8 — Salesforce Data Cloud",
+      "description": "---",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "data",
+        "ai",
+        "data-cloud"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/08-data-cloud/02-unified-individual.md",
+      "category": "Data Cloud",
+      "title": "02 Unified Individual",
+      "description": "A Unified Individual is the central entity in Salesforce Data Cloud that represents a single customer across all data sources. It consolidates all customer data into a single profile, enabling a 360-degree view of the customer.",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "data",
+        "ai",
+        "data-cloud"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/08-data-cloud/03-data-graphs.md",
+      "category": "Data Cloud",
+      "title": "03 Data Graphs",
+      "description": "Data Graphs are the relationship networks that connect all data entities in Salesforce Data Cloud. Data Graphs enable the agent to understand the relationships between customers, accounts, orders, products, and other entities.",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "data",
+        "ai",
+        "data-cloud"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/08-data-cloud/04-data-spaces.md",
+      "category": "Data Cloud",
+      "title": "04 Data Spaces",
+      "description": "Data Spaces are logical containers in Salesforce Data Cloud that organize and isolate data for different purposes, domains, or business units. Data Spaces enable multi-tenant data management within a single Data Cloud instance.",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "data",
+        "security",
+        "ai"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/08-data-cloud/05-calculated-insights.md",
+      "category": "Data Cloud",
+      "title": "05 Calculated Insights",
+      "description": "Calculated Insights are computed metrics and predictions generated by Data Cloud from the underlying data. They provide actionable intelligence that agents can use to personalize interactions and make data-driven decisions.",
+      "tags": [
+        "architecture",
+        "data",
+        "ai",
+        "data-cloud"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/08-data-cloud/06-streaming-insights.md",
+      "category": "Data Cloud",
+      "title": "06 Streaming Insights",
+      "description": "Streaming Insights are real-time analytics generated from streaming data in Salesforce Data Cloud. They enable agents to access up-to-the-minute information for time-sensitive decisions.",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "data",
+        "ai",
+        "monitoring"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/08-data-cloud/07-segments.md",
+      "category": "Data Cloud",
+      "title": "07 Segments",
+      "description": "Segments are groups of customers with similar characteristics or behaviors in Salesforce Data Cloud. Segments enable targeted, personalized interactions in Agentforce agents.",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "data",
+        "ai",
+        "data-cloud"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/08-data-cloud/08-data-actions.md",
+      "category": "Data Cloud",
+      "title": "08 Data Actions",
+      "description": "Data Actions are operations that manipulate and transform data in Salesforce Data Cloud. They enable the agent to not only read data but also write, update, and delete data as part of the agent's execution.",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "data",
+        "security",
+        "ai"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/08-data-cloud/09-zero-copy.md",
+      "category": "Data Cloud",
+      "title": "09 Zero Copy",
+      "description": "Zero Copy is a Data Cloud capability that allows agents to access external data without physically copying it into Salesforce. Zero Copy enables real-time data access while maintaining data governance and security.",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "data",
+        "security"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/08-data-cloud/10-connectors.md",
+      "category": "Data Cloud",
+      "title": "10 Connectors",
+      "description": "Data Cloud Connectors are pre-built integrations that enable Data Cloud to connect with external data sources. Connectors simplify the process of ingesting and accessing external data.",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "data",
+        "ai"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/08-data-cloud/11-data-federation.md",
+      "category": "Data Cloud",
+      "title": "11 Data Federation",
+      "description": "Data Federation is the ability to query and access data across multiple systems as if it were a single unified data source. Data Federation enables Agentforce agents to access and reason about data from diverse systems without moving the data.",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "data",
+        "ai"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/08-data-cloud/12-data-cloud-grounding.md",
+      "category": "Data Cloud",
+      "title": "12 Data Cloud Grounding",
+      "description": "Data Cloud grounding is the process of injecting Data Cloud data (Unified Individuals, segments, insights) into the Agentforce prompt. Data Cloud grounding provides the agent with a unified, 360-degree view of the customer for personalized, data-driven responses.",
+      "tags": [
+        "architecture",
+        "data",
+        "ai",
+        "data-cloud"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/08-data-cloud/13-ai-use-cases.md",
+      "category": "Data Cloud",
+      "title": "13 Ai Use Cases",
+      "description": "Data Cloud provides several AI use cases that enhance Agentforce agents with data-driven intelligence. These use cases leverage the unified customer profile, segments, insights, and Data Graph.",
+      "tags": [
+        "architecture",
+        "data",
+        "ai",
+        "performance",
+        "data-cloud"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/08-data-cloud/14-enterprise-architecture.md",
+      "category": "Data Cloud",
+      "title": "14 Enterprise Architecture",
+      "description": "Enterprise Data Cloud architecture design involves planning the data model, integration strategy, governance, and scalability for large-scale deployments. A well-designed architecture ensures data quality, security, and performance.",
+      "tags": [
+        "architecture",
+        "integration",
+        "data",
+        "security",
+        "ai"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/08-data-cloud/15-best-practices.md",
+      "category": "Operations",
+      "title": "15 Best Practices",
+      "description": "Following best practices for Data Cloud in Agentforce ensures that the agent has access to high-quality, relevant, and timely data for grounding and personalization.",
+      "tags": [
+        "architecture",
+        "integration",
+        "data",
+        "security",
+        "ai"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/09-trust-security/01-trust-layer.md",
+      "category": "Trust & Security",
+      "title": "01 Trust Layer",
+      "description": "The Salesforce Trust Layer is a security and compliance framework that wraps every Agentforce interaction, ensuring data protection, privacy, and regulatory compliance throughout the AI execution lifecycle. It is a foundational component that distinguishes Agentforce from generic AI agent platforms....",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "security",
+        "ai",
+        "governance"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/09-trust-security/02-zero-data-retention.md",
+      "category": "Trust & Security",
+      "title": "02 Zero Data Retention",
+      "description": "Zero Data Retention is a Trust Layer configuration option that ensures no user data is stored after the AI interaction completes. It is a critical privacy feature for agents handling sensitive data.",
+      "tags": [
+        "architecture",
+        "data",
+        "security",
+        "ai",
+        "governance"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/09-trust-security/03-pii-masking.md",
+      "category": "Trust & Security",
+      "title": "03 Pii Masking",
+      "description": "PII masking in Agentforce is the process of detecting and masking personally identifiable information before data is sent to the LLM. PII masking is a critical component of the Trust Layer that protects customer privacy.",
+      "tags": [
+        "architecture",
+        "security",
+        "ai",
+        "trust-&-security"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/09-trust-security/04-prompt-injection.md",
+      "category": "Trust & Security",
+      "title": "04 Prompt Injection",
+      "description": "Prompt injection is a security attack where an attacker manipulates the LLM's prompt to produce unintended or malicious responses. Agentforce provides several mechanisms to detect and prevent prompt injection attacks.",
+      "tags": [
+        "architecture",
+        "security",
+        "ai",
+        "monitoring",
+        "trust-&-security"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/09-trust-security/05-jailbreak-defense.md",
+      "category": "Trust & Security",
+      "title": "05 Jailbreak Defense",
+      "description": "Jailbreak attacks are attempts to bypass the LLM's safety constraints and get it to produce responses that violate its configured behavior. Agentforce provides multiple layers of defense against jailbreak attacks.",
+      "tags": [
+        "architecture",
+        "integration",
+        "ai",
+        "monitoring",
+        "trust-&-security"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/09-trust-security/06-data-leakage.md",
+      "category": "Trust & Security",
+      "title": "06 Data Leakage",
+      "description": "Data leakage in Agentforce occurs when sensitive data is inadvertently exposed to unauthorized users or external systems. Preventing data leakage is a critical security concern for Agentforce deployments.",
+      "tags": [
+        "architecture",
+        "integration",
+        "security",
+        "ai",
+        "devops"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/09-trust-security/07-prompt-sanitization.md",
+      "category": "Trust & Security",
+      "title": "07 Prompt Sanitization",
+      "description": "Prompt sanitization is the process of cleaning and normalizing user input before it is used in the prompt. Prompt sanitization prevents malicious input from affecting the LLM's behavior and ensures that prompts are safe and effective.",
+      "tags": [
+        "architecture",
+        "integration",
+        "ai",
+        "trust-&-security"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/09-trust-security/08-content-filtering.md",
+      "category": "Trust & Security",
+      "title": "08 Content Filtering",
+      "description": "Content filtering in Agentforce is the process of monitoring and controlling the content that flows through the agent, ensuring that responses are safe, appropriate, and compliant with organizational policies.",
+      "tags": [
+        "architecture",
+        "security",
+        "ai",
+        "monitoring",
+        "governance"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/09-trust-security/09-audit-logging.md",
+      "category": "Trust & Security",
+      "title": "09 Audit Logging",
+      "description": "Audit logging in Agentforce captures a complete record of every interaction, action, and decision made by the agent. Audit logging is essential for compliance, debugging, and security monitoring.",
+      "tags": [
+        "architecture",
+        "integration",
+        "security",
+        "ai",
+        "monitoring"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/09-trust-security/10-compliance.md",
+      "category": "Trust & Security",
+      "title": "10 Compliance",
+      "description": "Compliance in Agentforce ensures that the agent operates within regulatory and organizational requirements. Compliance covers GDPR, HIPAA, SOC2, and other frameworks that govern data handling and AI usage.",
+      "tags": [
+        "architecture",
+        "security",
+        "ai",
+        "governance",
+        "trust-&-security"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/09-trust-security/11-ai-governance.md",
+      "category": "Trust & Security",
+      "title": "11 Ai Governance",
+      "description": "AI governance in Agentforce is the framework of policies, processes, and controls that ensure AI agents are developed, deployed, and operated responsibly and ethically. AI governance is essential for enterprise trust and regulatory compliance.",
+      "tags": [
+        "architecture",
+        "security",
+        "ai",
+        "monitoring",
+        "governance"
+      ]
+    },
+    {
+      "file": "public/agentforce/parts/09-trust-security/12-responsible-ai.md",
+      "category": "Trust & Security",
+      "title": "12 Responsible Ai",
+      "description": "Responsible AI in Agentforce ensures that AI agents are developed and deployed in an ethical, fair, and transparent manner. Responsible AI is a core principle of the Trust Layer.",
+      "tags": [
+        "architecture",
+        "ai",
+        "monitoring",
+        "trust-&-security"
+      ]
+    },
+    {
+      "file": "public/scenorio/architecture/decisions/adr-001-single-org-strategy.md",
+      "category": "Architecture Decisions (ADRs)",
+      "title": "ADR-001: Single Org Strategy",
+      "description": "**Status:** Accepted **Date:** 2026-07-28 **Decision Makers:** Enterprise Salesforce Architecture Council ---",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "data",
+        "security"
+      ]
+    },
+    {
+      "file": "public/scenorio/architecture/decisions/adr-002-data-cloud-cdp.md",
+      "category": "Architecture Decisions (ADRs)",
+      "title": "ADR-002: Data Cloud as CDP",
+      "description": "**Status:** Accepted **Date:** 2026-07-28 **Decision Makers:** Enterprise Salesforce Architecture Council ---",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "data",
+        "security"
+      ]
+    },
+    {
+      "file": "public/scenorio/architecture/decisions/adr-003-mulesoft-integration.md",
+      "category": "Architecture Decisions (ADRs)",
+      "title": "ADR-003: MuleSoft as Integration Backbone",
+      "description": "**Status:** Accepted **Date:** 2026-07-28 **Decision Makers:** Enterprise Salesforce Architecture Council ---",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "security",
+        "ai"
+      ]
+    },
+    {
+      "file": "public/scenorio/architecture/decisions/adr-004-identity-resolution.md",
+      "category": "Architecture Decisions (ADRs)",
+      "title": "ADR-004: Identity Resolution Approach",
+      "description": "**Status:** Accepted **Date:** 2026-07-28 **Decision Makers:** Enterprise Salesforce Architecture Council ---",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "data",
+        "ai"
+      ]
+    },
+    {
+      "file": "public/scenorio/architecture/decisions/adr-005-regional-data-zones.md",
+      "category": "Architecture Decisions (ADRs)",
+      "title": "ADR-005: Regional Data Zones Architecture",
+      "description": "**Status:** Accepted **Date:** 2026-07-28 **Decision Makers:** Enterprise Salesforce Architecture Council ---",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "data",
+        "security"
+      ]
+    },
+    {
+      "file": "public/scenorio/architecture/decisions/adr-006-big-objects-strategy.md",
+      "category": "Architecture Decisions (ADRs)",
+      "title": "ADR-006: Big Objects Strategy for Historical Data",
+      "description": "**Status:** Accepted **Date:** 2026-07-28 **Decision Makers:** Enterprise Salesforce Architecture Council ---",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "data",
+        "security"
+      ]
+    },
+    {
+      "file": "public/scenorio/architecture/decisions/adr-007-event-driven-architecture.md",
+      "category": "Architecture Decisions (ADRs)",
+      "title": "ADR-007: Event-Driven Architecture",
+      "description": "**Status:** Accepted **Date:** 2026-07-28 **Decision Makers:** Enterprise Salesforce Architecture Council ---",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "data",
+        "ai"
+      ]
+    },
+    {
+      "file": "public/scenorio/architecture/decisions/adr-009-einstein-agentforce.md",
+      "category": "Architecture Decisions (ADRs)",
+      "title": "ADR-009: Einstein AI and Agentforce Deployment",
+      "description": "**Status:** Accepted **Date:** 2026-07-28 **Decision Makers:** Enterprise Salesforce Architecture Council ---",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "data",
+        "ai",
+        "devops"
+      ]
+    },
+    {
+      "file": "public/scenorio/architecture/decisions/adr-010-shield-security.md",
+      "category": "Architecture Decisions (ADRs)",
+      "title": "ADR-010: Salesforce Shield Security Framework",
+      "description": "**Status:** Accepted **Date:** 2026-07-28 **Decision Makers:** Enterprise Salesforce Architecture Council ---",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "security",
+        "ai"
+      ]
+    },
+    {
+      "file": "public/scenorio/architecture/decisions/adr-index.md",
+      "category": "Architecture Decisions (ADRs)",
+      "title": "Architecture Decision Records (ADR) Index",
+      "description": "**Global Customer Unification Platform** **Version:** 1.0 **Date:** 2026-07-28 **Status:** Board Approved ---",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "data",
+        "security"
+      ]
+    },
+    {
+      "file": "public/scenorio/architecture/decisions/architecture-decisions-compilation.md",
+      "category": "Architecture Decisions (ADRs)",
+      "title": "Architecture Decisions Compilation",
+      "description": "**Global Customer Unification Platform** **Version:** 1.0 **Date:** 2026-07-28 **Status:** Board Approved with Conditions ---",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "data",
+        "security"
+      ]
+    },
+    {
+      "file": "public/scenorio/architecture/delivery/ci-cd-strategy.md",
+      "category": "Delivery & DevOps",
+      "title": "CI/CD Strategy",
+      "description": "**Global Customer Unification Platform** **Document Version:** 1.0 **Date:** 2026-07-28 **Owner:** CI/CD Engineering Lead (Architecture Council) **Classification:** Confidential — Board Approved ---",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "data",
+        "security"
+      ]
+    },
+    {
+      "file": "public/scenorio/architecture/delivery/deployment-plan.md",
+      "category": "Delivery & DevOps",
+      "title": "Deployment Plan",
+      "description": "**Global Customer Unification Platform** **Document Version:** 1.0 **Date:** 2026-07-28 **Owner:** Release Management Lead (Architecture Council) **Classification:** Confidential — Board Approved ---",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "data",
+        "security"
+      ]
+    },
+    {
+      "file": "public/scenorio/architecture/delivery/devops-strategy.md",
+      "category": "Delivery & DevOps",
+      "title": "DevOps Strategy",
+      "description": "**Global Customer Unification Platform** **Document Version:** 1.0 **Date:** 2026-07-28 **Owner:** Enterprise DevOps Lead (Architecture Council) **Classification:** Confidential — Board Approved ---",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "data",
+        "security"
+      ]
+    },
+    {
+      "file": "public/scenorio/architecture/delivery/environment-strategy.md",
+      "category": "Delivery & DevOps",
+      "title": "Environment Strategy",
+      "description": "**Global Customer Unification Platform** **Document Version:** 1.0 **Date:** 2026-07-28 **Owner:** Platform Engineering Lead (Architecture Council) **Classification:** Confidential — Board Approved ---",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "data",
+        "security"
+      ]
+    },
+    {
+      "file": "public/scenorio/architecture/delivery/governance-framework.md",
+      "category": "Architecture Decisions (ADRs)",
+      "title": "Governance Framework",
+      "description": "**Global Customer Unification Platform** **Document Version:** 1.0 **Date:** 2026-07-28 **Owner:** Governance Program Lead (Architecture Council) **Classification:** Confidential — Board Approved ---",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "data",
+        "security"
+      ]
+    },
+    {
+      "file": "public/scenorio/architecture/design/api-specifications.md",
+      "category": "Solution Design",
+      "title": "3. API Specifications",
+      "description": "**Version:** 1.0 **Date:** 2026-07-28 **Architecture Review Board:** Enterprise Salesforce Architecture Council **Classification:** Confidential - Board Approved",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "data",
+        "security"
+      ]
+    },
+    {
+      "file": "public/scenorio/architecture/design/data-architecture.md",
+      "category": "Solution Design",
+      "title": "4. Data Architecture Document",
+      "description": "**Version:** 1.0 **Date:** 2026-07-28 **Architecture Review Board:** Enterprise Salesforce Architecture Council **Classification:** Confidential - Board Approved",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "data",
+        "security"
+      ]
+    },
+    {
+      "file": "public/scenorio/architecture/design/detailed-solution-design.md",
+      "category": "Solution Design",
+      "title": "1. Detailed Solution Design",
+      "description": "**Version:** 1.0 **Date:** 2026-07-28 **Architecture Review Board:** Enterprise Salesforce Architecture Council **Classification:** Confidential - Board Approved",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "data",
+        "security"
+      ]
+    },
+    {
+      "file": "public/scenorio/architecture/design/integration-design.md",
+      "category": "Solution Design",
+      "title": "2. Integration Design Document",
+      "description": "**Version:** 1.0 **Date:** 2026-07-28 **Architecture Review Board:** Enterprise Salesforce Architecture Council **Classification:** Confidential - Board Approved",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "data",
+        "security"
+      ]
+    },
+    {
+      "file": "public/scenorio/architecture/design/security-architecture.md",
+      "category": "Solution Design",
+      "title": "5. Security Architecture",
+      "description": "**Version:** 1.0 **Date:** 2026-07-28 **Architecture Review Board:** Enterprise Salesforce Architecture Council **Classification:** Confidential - Board Approved",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "data",
+        "security"
+      ]
+    },
+    {
+      "file": "public/scenorio/architecture/design/sequence-diagrams.md",
+      "category": "Solution Design",
+      "title": "6. Sequence Diagrams (Mermaid)",
+      "description": "**Version:** 1.0 **Date:** 2026-07-28 **Architecture Review Board:** Enterprise Salesforce Architecture Council **Classification:** Confidential - Board Approved",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "data",
+        "security"
+      ]
+    },
+    {
+      "file": "public/scenorio/architecture/discovery/high-level-design.md",
+      "category": "Solution Design",
+      "title": "High Level Design (HLD)",
+      "description": "**Global Customer Unification Platform** **Version:** 1.0 **Date:** 2026-07-28 **Status:** Board Approved ---",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "data",
+        "security"
+      ]
+    },
+    {
+      "file": "public/scenorio/architecture/discovery/non-functional-requirements.md",
+      "category": "Discovery & Requirements",
+      "title": "Non-Functional Requirements (NFR)",
+      "description": "**Global Customer Unification Platform** **Version:** 1.0 **Date:** 2026-07-28 **Status:** Board Approved ---",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "data",
+        "security"
+      ]
+    },
+    {
+      "file": "public/scenorio/architecture/discovery/solution-architecture-document.md",
+      "category": "Discovery & Requirements",
+      "title": "Solution Architecture Document (SAD)",
+      "description": "**Global Customer Unification Platform** **Version:** 1.0 **Date:** 2026-07-28 **Status:** Board Approved **Prepared by:** Enterprise Salesforce Architecture Council ---",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "data",
+        "security"
+      ]
+    },
+    {
+      "file": "public/scenorio/architecture/kt-document.md",
+      "category": "Architecture Decisions (ADRs)",
+      "title": "Table of Contents",
+      "description": "--- title: \"Global Customer Unification Platform\" subtitle: \"Enterprise Salesforce Architecture Knowledge Transfer Document\" author: \"Enterprise Salesforce Architecture Council\" date: \"2026-07-28\" version: \"1.0\" classification: \"Confidential - Board Approved\" --- <!-- PAGE BREAK -->",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "data",
+        "security"
+      ]
+    },
+    {
+      "file": "public/scenorio/architecture/operations/monitoring-strategy.md",
+      "category": "Delivery & DevOps",
+      "title": "Monitoring Strategy",
+      "description": "**Global Customer Unification Platform** **Version:** 1.0 **Date:** 2026-07-28 **Owner:** Operations Lead, Enterprise Salesforce Architecture Council **Review Cycle:** Quarterly **Next Review:** 2026-10-28 ---",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "data",
+        "security"
+      ]
+    },
+    {
+      "file": "public/scenorio/architecture/operations/operational-excellence.md",
+      "category": "Delivery & DevOps",
+      "title": "Operational Excellence Framework",
+      "description": "**Global Customer Unification Platform** **Version:** 1.0 **Date:** 2026-07-28 **Owner:** Operations Lead, Enterprise Salesforce Architecture Council **Review Cycle:** Quarterly **Next Review:** 2026-10-28 ---",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "data",
+        "security"
+      ]
+    },
+    {
+      "file": "public/scenorio/architecture/operations/performance-management.md",
+      "category": "Delivery & DevOps",
+      "title": "Performance Management Report",
+      "description": "**Global Customer Unification Platform** **Version:** 1.0 **Date:** 2026-07-28 **Owner:** Operations Lead, Enterprise Salesforce Architecture Council **Review Cycle:** Monthly **Next Review:** 2026-08-28 ---",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "data",
+        "ai"
+      ]
+    },
+    {
+      "file": "public/scenorio/architecture/operations/risk-register.md",
+      "category": "Delivery & DevOps",
+      "title": "Risk Register",
+      "description": "**Global Customer Unification Platform** **Version:** 1.0 **Date:** 2026-07-28 **Owner:** Operations Lead, Enterprise Salesforce Architecture Council **Review Cycle:** Monthly **Next Review:** 2026-08-28 ---",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "data",
+        "security"
+      ]
+    },
+    {
+      "file": "public/scenorio/architecture/operations/runbook.md",
+      "category": "Operations",
+      "title": "Operations Runbook",
+      "description": "**Global Customer Unification Platform** **Version:** 1.0 **Date:** 2026-07-28 **Owner:** Operations Lead, Enterprise Salesforce Architecture Council **Classification:** Confidential - Internal Use Only ---",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "data",
+        "security"
+      ]
+    },
+    {
+      "file": "public/scenorio/architecture/reports/architecture-debate-transcript.md",
+      "category": "Discovery & Requirements",
+      "title": "Architecture Debate Transcript",
+      "description": "**Session:** Global Customer Unification Platform — Enterprise Architecture Review **Date:** 2026-07-28 **Participants:** - **PA** — Salesforce Principal Architect (Enterprise Strategy) - **CTA** — Salesforce Technical Architect (Platform & Integration) - **SA** — Enterprise Solution Architect (Impl...",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "data",
+        "security"
+      ]
+    },
+    {
+      "file": "public/scenorio/architecture/reports/executive-summary.md",
+      "category": "Architecture Reports",
+      "title": "Executive Summary: Global Customer Unification Platform",
+      "description": "**Version:** 1.0 **Date:** 2026-07-28 **Architecture Review Board:** Enterprise Salesforce Architecture Council **Classification:** Confidential - Board Approved ---",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "data",
+        "security"
+      ]
+    },
+    {
+      "file": "public/scenorio/architecture/reports/final-quality-gate.md",
+      "category": "Architecture Decisions (ADRs)",
+      "title": "Final Quality Gate Verification",
+      "description": "**Global Customer Unification Platform** **Version:** 1.0 **Date:** 2026-07-28 **Status:** ALL CHECKS PASSED **Verified by:** Enterprise Salesforce Architecture Council ---",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "data",
+        "security"
+      ]
+    },
+    {
+      "file": "public/scenorio/architecture/reports/salesforce-cloud-analysis.md",
+      "category": "Architecture Reports",
+      "title": "Salesforce Cloud Analysis & Recommendations",
+      "description": "**Global Customer Unification Platform** **Version:** 1.0 **Date:** 2026-07-28 **Prepared by:** Enterprise Salesforce Architecture Council ---",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "data",
+        "security"
+      ]
+    },
+    {
+      "file": "public/scenorio/architecture/reports/self-critique-loop.md",
+      "category": "Delivery & DevOps",
+      "title": "Self-Critique Loop Report",
+      "description": "**Global Customer Unification Platform** **Version:** 1.0 **Date:** 2026-07-28 **Status:** Issues Identified, Updates In Progress ---",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "data",
+        "security"
+      ]
+    },
+    {
+      "file": "public/scenorio/architecture/reports/solution-recommendation.md",
+      "category": "Architecture Reports",
+      "title": "Solution Recommendation Report",
+      "description": "**Global Customer Unification Platform** **Version:** 1.0 **Date:** 2026-07-28 **Prepared by:** Enterprise Salesforce Architecture Council ---",
+      "tags": [
+        "salesforce",
+        "architecture",
+        "integration",
+        "data",
+        "security"
+      ]
+    },
+    {
+      "file": "public/scenorio/problem.md",
+      "category": "Business Problem Statement",
+      "title": "Problem",
+      "description": "Difficulty Level: Fortune 100 Scale Business Scenario A global automotive manufacturer has acquired six electric vehicle (EV) companies across North America, Europe, Japan, South Korea, Australia, and Brazil over the past three years. Each acquired company operates independently and uses different b...",
+      "tags": [
+        "architecture",
+        "integration",
+        "ai",
+        "business-problem-statement"
+      ]
+    }
+  ],
+  "stats": {
+    "files": 151,
+    "scenarios": 151,
+    "categories": 17
+  }
+}

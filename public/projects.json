@@ -1,0 +1,974 @@
+{
+  "projects": [
+    {
+      "id": "agentforce",
+      "name": "Agentforce",
+      "path": "agentforce",
+      "problemFile": "",
+      "problemSummary": "No problem statement found",
+      "problemContent": "",
+      "fileCount": 113,
+      "categories": {
+        "Other": [
+          "README",
+          "01-how-atlas-works",
+          "02-intent-recognition",
+          "03-reasoning",
+          "04-planning",
+          "05-tool-selection",
+          "06-action-selection",
+          "07-conversation-state",
+          "08-topic-selection",
+          "09-failure-handling",
+          "10-retry-mechanism",
+          "01-topic-architecture",
+          "02-topic-boundaries",
+          "03-topic-descriptions",
+          "04-topic-instructions",
+          "05-entry-exit-criteria",
+          "06-topic-prioritization",
+          "07-topic-overlap",
+          "08-intent-matching",
+          "09-large-enterprise-topics",
+          "10-topic-anti-patterns",
+          "01-flow-actions",
+          "02-apex-actions",
+          "03-rest-api-actions",
+          "04-external-service-actions",
+          "05-prompt-template-actions",
+          "06-mulesoft-actions",
+          "07-composite-actions",
+          "08-reusable-actions",
+          "09-transaction-handling",
+          "10-error-handling",
+          "11-retry",
+          "12-idempotency",
+          "13-security",
+          "15-scalability",
+          "01-prompt-builder",
+          "02-prompt-templates",
+          "03-prompt-inputs-outputs",
+          "04-grounding",
+          "05-merge-fields-variables",
+          "06-record-summaries",
+          "07-sales-email-prompts",
+          "08-field-generation-prompts",
+          "09-flex-prompts",
+          "10-custom-prompts",
+          "11-prompt-testing",
+          "12-prompt-evaluation",
+          "13-prompt-versioning",
+          "15-prompt-cicd",
+          "01-context-variables",
+          "02-conversation-context",
+          "03-session-context",
+          "04-runtime-context",
+          "05-salesforce-grounding",
+          "07-crm-grounding",
+          "08-data-cloud-grounding",
+          "09-flow-apex-grounding",
+          "10-hallucination-reduction",
+          "01-rag-overview",
+          "02-embeddings",
+          "03-semantic-search",
+          "04-vector-databases",
+          "05-cosine-similarity",
+          "06-chunking",
+          "07-retrieval-strategies",
+          "08-ranking",
+          "09-hybrid-search",
+          "10-enterprise-rag",
+          "01-identity-resolution",
+          "02-unified-individual",
+          "03-data-graphs",
+          "04-data-spaces",
+          "05-calculated-insights",
+          "06-streaming-insights",
+          "07-segments",
+          "08-data-actions",
+          "09-zero-copy",
+          "10-connectors",
+          "11-data-federation",
+          "12-data-cloud-grounding",
+          "13-ai-use-cases",
+          "14-enterprise-architecture",
+          "15-best-practices",
+          "01-trust-layer",
+          "02-zero-data-retention",
+          "03-pii-masking",
+          "04-prompt-injection",
+          "05-jailbreak-defense",
+          "06-data-leakage",
+          "07-prompt-sanitization",
+          "08-content-filtering",
+          "09-audit-logging",
+          "10-compliance",
+          "12-responsible-ai"
+        ],
+        "Agentforce Reference": [
+          "01-agentforce-fundamentals",
+          "02-internal-architecture",
+          "03-lifecycle",
+          "04-ai-execution-flow",
+          "05-llm-orchestration",
+          "06-atlas-reasoning",
+          "07-einstein-bots-comparison",
+          "08-capabilities",
+          "09-use-cases",
+          "10-limitations",
+          "11-when-not-to-use",
+          "12-licensing",
+          "13-components",
+          "14-architecture-patterns",
+          "15-best-practices"
+        ],
+        "Operations": [
+          "14-performance"
+        ],
+        "Delivery & DevOps": [
+          "14-prompt-deployment",
+          "11-ai-governance"
+        ],
+        "Knowledge Transfer": [
+          "06-knowledge-grounding"
+        ]
+      },
+      "files": [
+        {
+          "name": "README",
+          "path": "agentforce/README.md",
+          "category": "Other"
+        },
+        {
+          "name": "01-agentforce-fundamentals",
+          "path": "agentforce/parts/01-agentforce-fundamentals/01-agentforce-fundamentals.md",
+          "category": "Agentforce Reference"
+        },
+        {
+          "name": "02-internal-architecture",
+          "path": "agentforce/parts/01-agentforce-fundamentals/02-internal-architecture.md",
+          "category": "Agentforce Reference"
+        },
+        {
+          "name": "03-lifecycle",
+          "path": "agentforce/parts/01-agentforce-fundamentals/03-lifecycle.md",
+          "category": "Agentforce Reference"
+        },
+        {
+          "name": "04-ai-execution-flow",
+          "path": "agentforce/parts/01-agentforce-fundamentals/04-ai-execution-flow.md",
+          "category": "Agentforce Reference"
+        },
+        {
+          "name": "05-llm-orchestration",
+          "path": "agentforce/parts/01-agentforce-fundamentals/05-llm-orchestration.md",
+          "category": "Agentforce Reference"
+        },
+        {
+          "name": "06-atlas-reasoning",
+          "path": "agentforce/parts/01-agentforce-fundamentals/06-atlas-reasoning.md",
+          "category": "Agentforce Reference"
+        },
+        {
+          "name": "07-einstein-bots-comparison",
+          "path": "agentforce/parts/01-agentforce-fundamentals/07-einstein-bots-comparison.md",
+          "category": "Agentforce Reference"
+        },
+        {
+          "name": "08-capabilities",
+          "path": "agentforce/parts/01-agentforce-fundamentals/08-capabilities.md",
+          "category": "Agentforce Reference"
+        },
+        {
+          "name": "09-use-cases",
+          "path": "agentforce/parts/01-agentforce-fundamentals/09-use-cases.md",
+          "category": "Agentforce Reference"
+        },
+        {
+          "name": "10-limitations",
+          "path": "agentforce/parts/01-agentforce-fundamentals/10-limitations.md",
+          "category": "Agentforce Reference"
+        },
+        {
+          "name": "11-when-not-to-use",
+          "path": "agentforce/parts/01-agentforce-fundamentals/11-when-not-to-use.md",
+          "category": "Agentforce Reference"
+        },
+        {
+          "name": "12-licensing",
+          "path": "agentforce/parts/01-agentforce-fundamentals/12-licensing.md",
+          "category": "Agentforce Reference"
+        },
+        {
+          "name": "13-components",
+          "path": "agentforce/parts/01-agentforce-fundamentals/13-components.md",
+          "category": "Agentforce Reference"
+        },
+        {
+          "name": "14-architecture-patterns",
+          "path": "agentforce/parts/01-agentforce-fundamentals/14-architecture-patterns.md",
+          "category": "Agentforce Reference"
+        },
+        {
+          "name": "15-best-practices",
+          "path": "agentforce/parts/01-agentforce-fundamentals/15-best-practices.md",
+          "category": "Agentforce Reference"
+        },
+        {
+          "name": "01-how-atlas-works",
+          "path": "agentforce/parts/02-atlas-reasoning/01-how-atlas-works.md",
+          "category": "Other"
+        },
+        {
+          "name": "02-intent-recognition",
+          "path": "agentforce/parts/02-atlas-reasoning/02-intent-recognition.md",
+          "category": "Other"
+        },
+        {
+          "name": "03-reasoning",
+          "path": "agentforce/parts/02-atlas-reasoning/03-reasoning.md",
+          "category": "Other"
+        },
+        {
+          "name": "04-planning",
+          "path": "agentforce/parts/02-atlas-reasoning/04-planning.md",
+          "category": "Other"
+        },
+        {
+          "name": "05-tool-selection",
+          "path": "agentforce/parts/02-atlas-reasoning/05-tool-selection.md",
+          "category": "Other"
+        },
+        {
+          "name": "06-action-selection",
+          "path": "agentforce/parts/02-atlas-reasoning/06-action-selection.md",
+          "category": "Other"
+        },
+        {
+          "name": "07-conversation-state",
+          "path": "agentforce/parts/02-atlas-reasoning/07-conversation-state.md",
+          "category": "Other"
+        },
+        {
+          "name": "08-topic-selection",
+          "path": "agentforce/parts/02-atlas-reasoning/08-topic-selection.md",
+          "category": "Other"
+        },
+        {
+          "name": "09-failure-handling",
+          "path": "agentforce/parts/02-atlas-reasoning/09-failure-handling.md",
+          "category": "Other"
+        },
+        {
+          "name": "10-retry-mechanism",
+          "path": "agentforce/parts/02-atlas-reasoning/10-retry-mechanism.md",
+          "category": "Other"
+        },
+        {
+          "name": "01-topic-architecture",
+          "path": "agentforce/parts/03-topics/01-topic-architecture.md",
+          "category": "Other"
+        },
+        {
+          "name": "02-topic-boundaries",
+          "path": "agentforce/parts/03-topics/02-topic-boundaries.md",
+          "category": "Other"
+        },
+        {
+          "name": "03-topic-descriptions",
+          "path": "agentforce/parts/03-topics/03-topic-descriptions.md",
+          "category": "Other"
+        },
+        {
+          "name": "04-topic-instructions",
+          "path": "agentforce/parts/03-topics/04-topic-instructions.md",
+          "category": "Other"
+        },
+        {
+          "name": "05-entry-exit-criteria",
+          "path": "agentforce/parts/03-topics/05-entry-exit-criteria.md",
+          "category": "Other"
+        },
+        {
+          "name": "06-topic-prioritization",
+          "path": "agentforce/parts/03-topics/06-topic-prioritization.md",
+          "category": "Other"
+        },
+        {
+          "name": "07-topic-overlap",
+          "path": "agentforce/parts/03-topics/07-topic-overlap.md",
+          "category": "Other"
+        },
+        {
+          "name": "08-intent-matching",
+          "path": "agentforce/parts/03-topics/08-intent-matching.md",
+          "category": "Other"
+        },
+        {
+          "name": "09-large-enterprise-topics",
+          "path": "agentforce/parts/03-topics/09-large-enterprise-topics.md",
+          "category": "Other"
+        },
+        {
+          "name": "10-topic-anti-patterns",
+          "path": "agentforce/parts/03-topics/10-topic-anti-patterns.md",
+          "category": "Other"
+        },
+        {
+          "name": "01-flow-actions",
+          "path": "agentforce/parts/04-actions/01-flow-actions.md",
+          "category": "Other"
+        },
+        {
+          "name": "02-apex-actions",
+          "path": "agentforce/parts/04-actions/02-apex-actions.md",
+          "category": "Other"
+        },
+        {
+          "name": "03-rest-api-actions",
+          "path": "agentforce/parts/04-actions/03-rest-api-actions.md",
+          "category": "Other"
+        },
+        {
+          "name": "04-external-service-actions",
+          "path": "agentforce/parts/04-actions/04-external-service-actions.md",
+          "category": "Other"
+        },
+        {
+          "name": "05-prompt-template-actions",
+          "path": "agentforce/parts/04-actions/05-prompt-template-actions.md",
+          "category": "Other"
+        },
+        {
+          "name": "06-mulesoft-actions",
+          "path": "agentforce/parts/04-actions/06-mulesoft-actions.md",
+          "category": "Other"
+        },
+        {
+          "name": "07-composite-actions",
+          "path": "agentforce/parts/04-actions/07-composite-actions.md",
+          "category": "Other"
+        },
+        {
+          "name": "08-reusable-actions",
+          "path": "agentforce/parts/04-actions/08-reusable-actions.md",
+          "category": "Other"
+        },
+        {
+          "name": "09-transaction-handling",
+          "path": "agentforce/parts/04-actions/09-transaction-handling.md",
+          "category": "Other"
+        },
+        {
+          "name": "10-error-handling",
+          "path": "agentforce/parts/04-actions/10-error-handling.md",
+          "category": "Other"
+        },
+        {
+          "name": "11-retry",
+          "path": "agentforce/parts/04-actions/11-retry.md",
+          "category": "Other"
+        },
+        {
+          "name": "12-idempotency",
+          "path": "agentforce/parts/04-actions/12-idempotency.md",
+          "category": "Other"
+        },
+        {
+          "name": "13-security",
+          "path": "agentforce/parts/04-actions/13-security.md",
+          "category": "Other"
+        },
+        {
+          "name": "14-performance",
+          "path": "agentforce/parts/04-actions/14-performance.md",
+          "category": "Operations"
+        },
+        {
+          "name": "15-scalability",
+          "path": "agentforce/parts/04-actions/15-scalability.md",
+          "category": "Other"
+        },
+        {
+          "name": "01-prompt-builder",
+          "path": "agentforce/parts/05-prompt-builder/01-prompt-builder.md",
+          "category": "Other"
+        },
+        {
+          "name": "02-prompt-templates",
+          "path": "agentforce/parts/05-prompt-builder/02-prompt-templates.md",
+          "category": "Other"
+        },
+        {
+          "name": "03-prompt-inputs-outputs",
+          "path": "agentforce/parts/05-prompt-builder/03-prompt-inputs-outputs.md",
+          "category": "Other"
+        },
+        {
+          "name": "04-grounding",
+          "path": "agentforce/parts/05-prompt-builder/04-grounding.md",
+          "category": "Other"
+        },
+        {
+          "name": "05-merge-fields-variables",
+          "path": "agentforce/parts/05-prompt-builder/05-merge-fields-variables.md",
+          "category": "Other"
+        },
+        {
+          "name": "06-record-summaries",
+          "path": "agentforce/parts/05-prompt-builder/06-record-summaries.md",
+          "category": "Other"
+        },
+        {
+          "name": "07-sales-email-prompts",
+          "path": "agentforce/parts/05-prompt-builder/07-sales-email-prompts.md",
+          "category": "Other"
+        },
+        {
+          "name": "08-field-generation-prompts",
+          "path": "agentforce/parts/05-prompt-builder/08-field-generation-prompts.md",
+          "category": "Other"
+        },
+        {
+          "name": "09-flex-prompts",
+          "path": "agentforce/parts/05-prompt-builder/09-flex-prompts.md",
+          "category": "Other"
+        },
+        {
+          "name": "10-custom-prompts",
+          "path": "agentforce/parts/05-prompt-builder/10-custom-prompts.md",
+          "category": "Other"
+        },
+        {
+          "name": "11-prompt-testing",
+          "path": "agentforce/parts/05-prompt-builder/11-prompt-testing.md",
+          "category": "Other"
+        },
+        {
+          "name": "12-prompt-evaluation",
+          "path": "agentforce/parts/05-prompt-builder/12-prompt-evaluation.md",
+          "category": "Other"
+        },
+        {
+          "name": "13-prompt-versioning",
+          "path": "agentforce/parts/05-prompt-builder/13-prompt-versioning.md",
+          "category": "Other"
+        },
+        {
+          "name": "14-prompt-deployment",
+          "path": "agentforce/parts/05-prompt-builder/14-prompt-deployment.md",
+          "category": "Delivery & DevOps"
+        },
+        {
+          "name": "15-prompt-cicd",
+          "path": "agentforce/parts/05-prompt-builder/15-prompt-cicd.md",
+          "category": "Other"
+        },
+        {
+          "name": "01-context-variables",
+          "path": "agentforce/parts/06-context-grounding/01-context-variables.md",
+          "category": "Other"
+        },
+        {
+          "name": "02-conversation-context",
+          "path": "agentforce/parts/06-context-grounding/02-conversation-context.md",
+          "category": "Other"
+        },
+        {
+          "name": "03-session-context",
+          "path": "agentforce/parts/06-context-grounding/03-session-context.md",
+          "category": "Other"
+        },
+        {
+          "name": "04-runtime-context",
+          "path": "agentforce/parts/06-context-grounding/04-runtime-context.md",
+          "category": "Other"
+        },
+        {
+          "name": "05-salesforce-grounding",
+          "path": "agentforce/parts/06-context-grounding/05-salesforce-grounding.md",
+          "category": "Other"
+        },
+        {
+          "name": "06-knowledge-grounding",
+          "path": "agentforce/parts/06-context-grounding/06-knowledge-grounding.md",
+          "category": "Knowledge Transfer"
+        },
+        {
+          "name": "07-crm-grounding",
+          "path": "agentforce/parts/06-context-grounding/07-crm-grounding.md",
+          "category": "Other"
+        },
+        {
+          "name": "08-data-cloud-grounding",
+          "path": "agentforce/parts/06-context-grounding/08-data-cloud-grounding.md",
+          "category": "Other"
+        },
+        {
+          "name": "09-flow-apex-grounding",
+          "path": "agentforce/parts/06-context-grounding/09-flow-apex-grounding.md",
+          "category": "Other"
+        },
+        {
+          "name": "10-hallucination-reduction",
+          "path": "agentforce/parts/06-context-grounding/10-hallucination-reduction.md",
+          "category": "Other"
+        },
+        {
+          "name": "01-rag-overview",
+          "path": "agentforce/parts/07-rag-vector-search/01-rag-overview.md",
+          "category": "Other"
+        },
+        {
+          "name": "02-embeddings",
+          "path": "agentforce/parts/07-rag-vector-search/02-embeddings.md",
+          "category": "Other"
+        },
+        {
+          "name": "03-semantic-search",
+          "path": "agentforce/parts/07-rag-vector-search/03-semantic-search.md",
+          "category": "Other"
+        },
+        {
+          "name": "04-vector-databases",
+          "path": "agentforce/parts/07-rag-vector-search/04-vector-databases.md",
+          "category": "Other"
+        },
+        {
+          "name": "05-cosine-similarity",
+          "path": "agentforce/parts/07-rag-vector-search/05-cosine-similarity.md",
+          "category": "Other"
+        },
+        {
+          "name": "06-chunking",
+          "path": "agentforce/parts/07-rag-vector-search/06-chunking.md",
+          "category": "Other"
+        },
+        {
+          "name": "07-retrieval-strategies",
+          "path": "agentforce/parts/07-rag-vector-search/07-retrieval-strategies.md",
+          "category": "Other"
+        },
+        {
+          "name": "08-ranking",
+          "path": "agentforce/parts/07-rag-vector-search/08-ranking.md",
+          "category": "Other"
+        },
+        {
+          "name": "09-hybrid-search",
+          "path": "agentforce/parts/07-rag-vector-search/09-hybrid-search.md",
+          "category": "Other"
+        },
+        {
+          "name": "10-enterprise-rag",
+          "path": "agentforce/parts/07-rag-vector-search/10-enterprise-rag.md",
+          "category": "Other"
+        },
+        {
+          "name": "01-identity-resolution",
+          "path": "agentforce/parts/08-data-cloud/01-identity-resolution.md",
+          "category": "Other"
+        },
+        {
+          "name": "02-unified-individual",
+          "path": "agentforce/parts/08-data-cloud/02-unified-individual.md",
+          "category": "Other"
+        },
+        {
+          "name": "03-data-graphs",
+          "path": "agentforce/parts/08-data-cloud/03-data-graphs.md",
+          "category": "Other"
+        },
+        {
+          "name": "04-data-spaces",
+          "path": "agentforce/parts/08-data-cloud/04-data-spaces.md",
+          "category": "Other"
+        },
+        {
+          "name": "05-calculated-insights",
+          "path": "agentforce/parts/08-data-cloud/05-calculated-insights.md",
+          "category": "Other"
+        },
+        {
+          "name": "06-streaming-insights",
+          "path": "agentforce/parts/08-data-cloud/06-streaming-insights.md",
+          "category": "Other"
+        },
+        {
+          "name": "07-segments",
+          "path": "agentforce/parts/08-data-cloud/07-segments.md",
+          "category": "Other"
+        },
+        {
+          "name": "08-data-actions",
+          "path": "agentforce/parts/08-data-cloud/08-data-actions.md",
+          "category": "Other"
+        },
+        {
+          "name": "09-zero-copy",
+          "path": "agentforce/parts/08-data-cloud/09-zero-copy.md",
+          "category": "Other"
+        },
+        {
+          "name": "10-connectors",
+          "path": "agentforce/parts/08-data-cloud/10-connectors.md",
+          "category": "Other"
+        },
+        {
+          "name": "11-data-federation",
+          "path": "agentforce/parts/08-data-cloud/11-data-federation.md",
+          "category": "Other"
+        },
+        {
+          "name": "12-data-cloud-grounding",
+          "path": "agentforce/parts/08-data-cloud/12-data-cloud-grounding.md",
+          "category": "Other"
+        },
+        {
+          "name": "13-ai-use-cases",
+          "path": "agentforce/parts/08-data-cloud/13-ai-use-cases.md",
+          "category": "Other"
+        },
+        {
+          "name": "14-enterprise-architecture",
+          "path": "agentforce/parts/08-data-cloud/14-enterprise-architecture.md",
+          "category": "Other"
+        },
+        {
+          "name": "15-best-practices",
+          "path": "agentforce/parts/08-data-cloud/15-best-practices.md",
+          "category": "Other"
+        },
+        {
+          "name": "01-trust-layer",
+          "path": "agentforce/parts/09-trust-security/01-trust-layer.md",
+          "category": "Other"
+        },
+        {
+          "name": "02-zero-data-retention",
+          "path": "agentforce/parts/09-trust-security/02-zero-data-retention.md",
+          "category": "Other"
+        },
+        {
+          "name": "03-pii-masking",
+          "path": "agentforce/parts/09-trust-security/03-pii-masking.md",
+          "category": "Other"
+        },
+        {
+          "name": "04-prompt-injection",
+          "path": "agentforce/parts/09-trust-security/04-prompt-injection.md",
+          "category": "Other"
+        },
+        {
+          "name": "05-jailbreak-defense",
+          "path": "agentforce/parts/09-trust-security/05-jailbreak-defense.md",
+          "category": "Other"
+        },
+        {
+          "name": "06-data-leakage",
+          "path": "agentforce/parts/09-trust-security/06-data-leakage.md",
+          "category": "Other"
+        },
+        {
+          "name": "07-prompt-sanitization",
+          "path": "agentforce/parts/09-trust-security/07-prompt-sanitization.md",
+          "category": "Other"
+        },
+        {
+          "name": "08-content-filtering",
+          "path": "agentforce/parts/09-trust-security/08-content-filtering.md",
+          "category": "Other"
+        },
+        {
+          "name": "09-audit-logging",
+          "path": "agentforce/parts/09-trust-security/09-audit-logging.md",
+          "category": "Other"
+        },
+        {
+          "name": "10-compliance",
+          "path": "agentforce/parts/09-trust-security/10-compliance.md",
+          "category": "Other"
+        },
+        {
+          "name": "11-ai-governance",
+          "path": "agentforce/parts/09-trust-security/11-ai-governance.md",
+          "category": "Delivery & DevOps"
+        },
+        {
+          "name": "12-responsible-ai",
+          "path": "agentforce/parts/09-trust-security/12-responsible-ai.md",
+          "category": "Other"
+        }
+      ]
+    },
+    {
+      "id": "scenorio",
+      "name": "Scenorio",
+      "path": "scenorio",
+      "problemFile": "problem.md",
+      "problemSummary": "Difficulty Level: Fortune 100 Scale Business Scenario A global automotive manufacturer has acquired six electric vehicle (EV) companies across North America, Europe, Japan, South Korea, Australia, and...",
+      "problemContent": "Difficulty Level: Fortune 100 Scale\n\nBusiness Scenario\n\nA global automotive manufacturer has acquired six electric vehicle (EV) companies across North America, Europe, Japan, South Korea, Australia, and Brazil over the past three years.\n\nEach acquired company operates independently and uses different business applications for sales, customer service, manufacturing, connected vehicles, warranties, roadside assistance, subscriptions, and dealer operations.\n\nThe board has announced a new initiative:\n\n\"One Customer. One Vehicle. One Experience.\"\n\nWithin 18 months, every customer should have a seamless experience regardless of which brand they purchased from.\n\nCurrent Landscape\n\nThe organisation consists of:\n\n6 acquired companies\n14 vehicle brands\nOperations in 47 countries\n92,000 employees\n11,500 dealerships\n68 million registered customers\n125 million connected vehicles\n9 regional contact centres\n28 manufacturing plants\n17 regional distribution centres\nExisting Technology Landscape\n\nThe enterprise currently operates:\n\nMultiple CRM platforms inherited through acquisitions\nFour independent ERP ecosystems\nThree customer identity providers\nSeparate warranty platforms\nIndependent dealer management systems\nDifferent mobile applications for each brand\nMultiple regional data warehouses\nIndependent customer loyalty programmes\nDifferent analytics platforms\n\nNo system shares a globally trusted customer identifier.\n\nBusiness Challenges\n\nThe executive leadership team has identified several strategic problems:\n\nCustomers own vehicles from multiple brands but are treated as different people in every business unit.\nDealers cannot view a customer's history if the customer purchased a vehicle from another brand.\nRoadside assistance teams lack visibility into vehicles manufactured by acquired companies.\nSubscription services operate independently, forcing customers to manage multiple accounts.\nVehicle software updates are coordinated differently by each company.\nCustomer support quality varies significantly across regions.\nExecutives cannot obtain a global view of customer lifetime value.\nGlobal recalls require manual coordination across multiple organisations.\nMarketing campaigns frequently target the same customer multiple times because duplicate customer records exist across brands.\nEnterprise Constraints\n\nThe board has imposed the following constraints:\n\nThe business cannot suspend operations during the transformation.\nEach acquired company must continue operating independently for legal reasons during the transition period.\nSeveral countries have strict data residency requirements preventing unrestricted movement of customer data.\nExisting dealer integrations cannot be modified for at least two years due to contractual commitments.\nAnnual technology spending has been reduced by 25%.\nThe CEO expects measurable business value within the first nine months.\nThe company plans to acquire two additional EV manufacturers next year, and the future architecture must accommodate further acquisitions with minimal disruption.\nCTO Questions\nHow would you approach this problem?\nWhat architecture would you propose?\nWhat assumptions would you validate?\nWhat risks do you identify?\nWhat trade-offs would you discuss with the executive team?\"",
+      "fileCount": 38,
+      "categories": {
+        "Architecture Decisions": [
+          "adr-001-single-org-strategy",
+          "adr-002-data-cloud-cdp",
+          "adr-003-mulesoft-integration",
+          "adr-004-identity-resolution",
+          "adr-005-regional-data-zones",
+          "adr-006-big-objects-strategy",
+          "adr-007-event-driven-architecture",
+          "adr-009-einstein-agentforce",
+          "adr-010-shield-security",
+          "adr-index",
+          "architecture-decisions-compilation"
+        ],
+        "Delivery & DevOps": [
+          "ci-cd-strategy",
+          "deployment-plan",
+          "devops-strategy",
+          "environment-strategy",
+          "governance-framework"
+        ],
+        "Solution Design": [
+          "api-specifications",
+          "data-architecture",
+          "detailed-solution-design",
+          "integration-design",
+          "security-architecture",
+          "sequence-diagrams",
+          "high-level-design"
+        ],
+        "Discovery & Requirements": [
+          "non-functional-requirements",
+          "solution-architecture-document"
+        ],
+        "Knowledge Transfer": [
+          "kt-document"
+        ],
+        "Operations": [
+          "monitoring-strategy",
+          "operational-excellence",
+          "performance-management",
+          "risk-register",
+          "runbook"
+        ],
+        "Architecture Reports": [
+          "architecture-debate-transcript",
+          "executive-summary",
+          "final-quality-gate",
+          "salesforce-cloud-analysis",
+          "self-critique-loop",
+          "solution-recommendation"
+        ],
+        "Problem Statement": [
+          "problem"
+        ]
+      },
+      "files": [
+        {
+          "name": "adr-001-single-org-strategy",
+          "path": "scenorio/architecture/decisions/adr-001-single-org-strategy.md",
+          "category": "Architecture Decisions"
+        },
+        {
+          "name": "adr-002-data-cloud-cdp",
+          "path": "scenorio/architecture/decisions/adr-002-data-cloud-cdp.md",
+          "category": "Architecture Decisions"
+        },
+        {
+          "name": "adr-003-mulesoft-integration",
+          "path": "scenorio/architecture/decisions/adr-003-mulesoft-integration.md",
+          "category": "Architecture Decisions"
+        },
+        {
+          "name": "adr-004-identity-resolution",
+          "path": "scenorio/architecture/decisions/adr-004-identity-resolution.md",
+          "category": "Architecture Decisions"
+        },
+        {
+          "name": "adr-005-regional-data-zones",
+          "path": "scenorio/architecture/decisions/adr-005-regional-data-zones.md",
+          "category": "Architecture Decisions"
+        },
+        {
+          "name": "adr-006-big-objects-strategy",
+          "path": "scenorio/architecture/decisions/adr-006-big-objects-strategy.md",
+          "category": "Architecture Decisions"
+        },
+        {
+          "name": "adr-007-event-driven-architecture",
+          "path": "scenorio/architecture/decisions/adr-007-event-driven-architecture.md",
+          "category": "Architecture Decisions"
+        },
+        {
+          "name": "adr-009-einstein-agentforce",
+          "path": "scenorio/architecture/decisions/adr-009-einstein-agentforce.md",
+          "category": "Architecture Decisions"
+        },
+        {
+          "name": "adr-010-shield-security",
+          "path": "scenorio/architecture/decisions/adr-010-shield-security.md",
+          "category": "Architecture Decisions"
+        },
+        {
+          "name": "adr-index",
+          "path": "scenorio/architecture/decisions/adr-index.md",
+          "category": "Architecture Decisions"
+        },
+        {
+          "name": "architecture-decisions-compilation",
+          "path": "scenorio/architecture/decisions/architecture-decisions-compilation.md",
+          "category": "Architecture Decisions"
+        },
+        {
+          "name": "ci-cd-strategy",
+          "path": "scenorio/architecture/delivery/ci-cd-strategy.md",
+          "category": "Delivery & DevOps"
+        },
+        {
+          "name": "deployment-plan",
+          "path": "scenorio/architecture/delivery/deployment-plan.md",
+          "category": "Delivery & DevOps"
+        },
+        {
+          "name": "devops-strategy",
+          "path": "scenorio/architecture/delivery/devops-strategy.md",
+          "category": "Delivery & DevOps"
+        },
+        {
+          "name": "environment-strategy",
+          "path": "scenorio/architecture/delivery/environment-strategy.md",
+          "category": "Delivery & DevOps"
+        },
+        {
+          "name": "governance-framework",
+          "path": "scenorio/architecture/delivery/governance-framework.md",
+          "category": "Delivery & DevOps"
+        },
+        {
+          "name": "api-specifications",
+          "path": "scenorio/architecture/design/api-specifications.md",
+          "category": "Solution Design"
+        },
+        {
+          "name": "data-architecture",
+          "path": "scenorio/architecture/design/data-architecture.md",
+          "category": "Solution Design"
+        },
+        {
+          "name": "detailed-solution-design",
+          "path": "scenorio/architecture/design/detailed-solution-design.md",
+          "category": "Solution Design"
+        },
+        {
+          "name": "integration-design",
+          "path": "scenorio/architecture/design/integration-design.md",
+          "category": "Solution Design"
+        },
+        {
+          "name": "security-architecture",
+          "path": "scenorio/architecture/design/security-architecture.md",
+          "category": "Solution Design"
+        },
+        {
+          "name": "sequence-diagrams",
+          "path": "scenorio/architecture/design/sequence-diagrams.md",
+          "category": "Solution Design"
+        },
+        {
+          "name": "high-level-design",
+          "path": "scenorio/architecture/discovery/high-level-design.md",
+          "category": "Solution Design"
+        },
+        {
+          "name": "non-functional-requirements",
+          "path": "scenorio/architecture/discovery/non-functional-requirements.md",
+          "category": "Discovery & Requirements"
+        },
+        {
+          "name": "solution-architecture-document",
+          "path": "scenorio/architecture/discovery/solution-architecture-document.md",
+          "category": "Discovery & Requirements"
+        },
+        {
+          "name": "kt-document",
+          "path": "scenorio/architecture/kt-document.md",
+          "category": "Knowledge Transfer"
+        },
+        {
+          "name": "monitoring-strategy",
+          "path": "scenorio/architecture/operations/monitoring-strategy.md",
+          "category": "Operations"
+        },
+        {
+          "name": "operational-excellence",
+          "path": "scenorio/architecture/operations/operational-excellence.md",
+          "category": "Operations"
+        },
+        {
+          "name": "performance-management",
+          "path": "scenorio/architecture/operations/performance-management.md",
+          "category": "Operations"
+        },
+        {
+          "name": "risk-register",
+          "path": "scenorio/architecture/operations/risk-register.md",
+          "category": "Operations"
+        },
+        {
+          "name": "runbook",
+          "path": "scenorio/architecture/operations/runbook.md",
+          "category": "Operations"
+        },
+        {
+          "name": "architecture-debate-transcript",
+          "path": "scenorio/architecture/reports/architecture-debate-transcript.md",
+          "category": "Architecture Reports"
+        },
+        {
+          "name": "executive-summary",
+          "path": "scenorio/architecture/reports/executive-summary.md",
+          "category": "Architecture Reports"
+        },
+        {
+          "name": "final-quality-gate",
+          "path": "scenorio/architecture/reports/final-quality-gate.md",
+          "category": "Architecture Reports"
+        },
+        {
+          "name": "salesforce-cloud-analysis",
+          "path": "scenorio/architecture/reports/salesforce-cloud-analysis.md",
+          "category": "Architecture Reports"
+        },
+        {
+          "name": "self-critique-loop",
+          "path": "scenorio/architecture/reports/self-critique-loop.md",
+          "category": "Architecture Reports"
+        },
+        {
+          "name": "solution-recommendation",
+          "path": "scenorio/architecture/reports/solution-recommendation.md",
+          "category": "Architecture Reports"
+        },
+        {
+          "name": "problem",
+          "path": "scenorio/problem.md",
+          "category": "Problem Statement"
+        }
+      ]
+    },
+    {
+      "id": "scenorio2",
+      "name": "Scenorio2",
+      "path": "scenorio2",
+      "problemFile": "",
+      "problemSummary": "No problem statement found",
+      "problemContent": "",
+      "fileCount": 0,
+      "categories": {},
+      "files": []
+    }
+  ],
+  "generated": "2026-08-08T06:58:41.455Z"
+}
